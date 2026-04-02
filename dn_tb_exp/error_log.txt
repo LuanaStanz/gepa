@@ -1,0 +1,112 @@
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===ERROR LOG ENTRY===...TIME...: 2026-03-03 15:18:08
+...MODEL NAME...: gpt-oss-120b
+...Message...: [PIPELINE] Erro processando 'A->(B|C)|-(A->B)|(A->C)' no prompt 'few_completo': LMStudioServerError - Chat response error: Model reloaded.
+Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Model reloaded.
+
+...Traceback...:Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Model reloaded.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===ERROR LOG ENTRY===...TIME...: 2026-03-03 15:23:04
+...MODEL NAME...: gpt-oss-120b
+...Message...: [PIPELINE] Erro processando '~A->B,C|~B,A->(D|E),~C&~E|-D' no prompt 'few_completo': LMStudioServerError - Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+
+...Traceback...:Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===ERROR LOG ENTRY===...TIME...: 2026-03-03 15:26:19
+...MODEL NAME...: gpt-oss-120b
+...Message...: [PIPELINE] Erro processando 'A->(B|C)|-(A->B)|(A->C)' no prompt 'few_completo': LMStudioServerError - Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+
+...Traceback...:Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------===ERROR LOG ENTRY===...TIME...: 2026-03-03 15:34:06
+...MODEL NAME...: gpt-oss-120b
+...Message...: [PIPELINE] Erro processando '~A->~B,(C&D)|B,~A->~D|-~C|A' no prompt 'few_completo': LMStudioServerError - Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+
+...Traceback...:Traceback (most recent call last):
+  File "/home/liaan/Documentos/dn_tb_exp/pipeline.py", line 227, in pipeline
+    response_text, tokens_input, tokens_output, finish_reason = modelRequestLMstudio(model, conversa_entrada)#, 'localhost', "192.168.68.106"
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 32, in modelRequestLMstudio
+    raise e
+  File "/home/liaan/Documentos/dn_tb_exp/makingRequest.py", line 9, in modelRequestLMstudio
+    completion = model.respond(
+                 ^^^^^^^^^^^^^^
+lmstudio.LMStudioServerError: Chat response error: Reached context length of 8000 tokens, but this model does not currently support mid-generation context overflow because arch is gpt-oss. Try reloading with a larger context length or shortening the prompt/chat.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
